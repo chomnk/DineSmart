@@ -52,3 +52,33 @@
 .bottomComponentDropdown:hover {
     transform: scale(1.03);
 }
+
+.rightDiv {
+    flex: 0 0 67%;
+    margin: 10px;
+    margin-right: 50px;
+    border-radius: 25px;
+    background-color: #38e8dd;
+}
+
+.scrollableContainer {
+    height: 100%; /* Take the full height of the rightDiv */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+.shopSquare {
+    width: 25%;
+    height: 25%;
+    margin: 3%;
+    border-radius: 25px;
+    background-color: #3498db;
+    color: #fff;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.shopSquare:hover {
+    transform: scale(1.03);
+}
