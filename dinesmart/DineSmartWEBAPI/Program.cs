@@ -5,10 +5,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.Configure<RestaurantDatabase>(
+builder.Services.Configure<UserDatabase>(
     builder.Configuration.GetSection("ProjectDatabase"));
 
-builder.Services.AddSingleton<RestaurantService>();
+builder.Services.AddSingleton<UserDatabase>();
 
 builder.Services.AddControllers()
     .AddJsonOptions(

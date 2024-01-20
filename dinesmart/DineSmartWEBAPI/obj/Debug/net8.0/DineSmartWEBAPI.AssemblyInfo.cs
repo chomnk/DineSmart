@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DineSmartWEBAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ab8a2149fa13bd7a13606edde80dc3d9b8ee63c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6e50a6218e039fd923a32f76888b9296402c694")]
 [assembly: System.Reflection.AssemblyProductAttribute("DineSmartWEBAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DineSmartWEBAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

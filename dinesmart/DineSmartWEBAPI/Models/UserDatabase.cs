@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 
 namespace DineSmartWEBAPI.Models
 {
-    public class RestaurantDatabase
+    public class UserDatabase
     {
         public string ConnectionString { get; set; } = null!;
 
         public string DatabaseName { get; set; } = null!;
 
-        public string RestaurantCollectionName { get; set; } = null!;
+        public string UserCollectionName { get; set; } = null!;
     }
 }

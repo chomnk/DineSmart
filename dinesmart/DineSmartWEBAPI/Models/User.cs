@@ -15,7 +15,7 @@ namespace DineSmartWEBAPI.Models
         //I can replace this with Guid later. Maybe now?
         //public string? Id {get ; set;}
 
-        public Guid Id = Guid.NewGuid();
+        public string Id { get; set; }
 
         [BsonElement("Name")]
 
@@ -25,8 +25,8 @@ namespace DineSmartWEBAPI.Models
 
         //public string Password {get; set;}
 
-        
+        public List<string> ListOfReviews {get; set; } = new();
 
-
+        public string? RestaurantId {get; set; } = null;
     }
 }
